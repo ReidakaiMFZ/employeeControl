@@ -80,8 +80,9 @@ def cadastro(request):
     return redirect('login')
 
 
-@login_required(redirect_field_name='login')
+@login_required(redirect_field_name='login', login_url='../../contas/login/')
 def dashboard(request):
+    print("passei porra qui")
     if request.method != 'POST': 
         form = FormContato()
         return render(request, 'accounts/dashboard.html', {'form': form})
