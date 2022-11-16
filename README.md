@@ -9,7 +9,7 @@ This is a simple project to control employees. It was developed using the follow
 
 ## Installation
 
-Use the package manager [git](https://pip.pypa.io/en/stable/) to download the project.
+Use the package manager [git](https://git-scm.com/downloads) to download the project.
 
 ```bash
 git clone https://github.com/ReidakaiMFZ/employeeControl.git
